@@ -1,4 +1,5 @@
-# Bloom-Filter : A bloom filter is a space-efficient probabilistic data structure that is used to test whether an element is a member of a set or not.  Bloom filters and their variants are of prime importance, and they are heavily used in various distributed systems. 
+# Bloom-Filter 
+A bloom filter is a space-efficient probabilistic data structure that is used to test whether an element is a member of a set or not.  Bloom filters and their variants are of prime importance, and they are heavily used in various distributed systems. 
 
 For example, Cassandra uses bloom filters to test if any of the SSTables is likely to contain the requested partition key or not, without actually having to read their contents (and thus avoiding expensive IO operations).
 
